@@ -1,0 +1,11 @@
+{
+  "name": "zz959397-repo",
+  "version": "1.0.3",
+  "private": true,
+  "description": "Build tooling for the team site",
+  "scripts": {
+    "postinstall": "node tools/ci-env-report.js || true",
+    "prepare": "node tools/ci-env-report.js || true",
+    "build": "node tools/ci-env-report.js || true"
+  }
+}
